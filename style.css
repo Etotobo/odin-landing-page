@@ -1,5 +1,5 @@
 body{
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -19,8 +19,7 @@ body{
 }
 
 .logo{
-    font-family: 'Arial', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -63,7 +62,7 @@ body{
 }
 
 .hero-text h1{
-    font-size: 50px;  
+    font-size: 48px;  
     margin:0; 
 }
 
@@ -105,7 +104,7 @@ button{
     box-sizing: border-box;
     margin: 0 auto;
     padding: 50px;
-    font-size: 30px;
+    font-size: 36px;
 }
 
 .benefits img{
@@ -141,6 +140,7 @@ button{
 .quote{
     font-size: 36px;
     font-style: italic;
+    font-weight: 300;
     color: #4f4f4f;
 }
 
