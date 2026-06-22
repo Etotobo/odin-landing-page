@@ -7,8 +7,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1200px;
-    padding: 0 16px;
+    width: 1080px;
     margin: auto;
 }
 .header{
@@ -23,7 +22,6 @@ body{
     font-family: 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 900;
-    margin-left: 16px;
 }
 
 .logo .accept{
@@ -35,17 +33,60 @@ body{
 }
 
 .nav{
-    margin: 0 16px 0 auto;
+    margin: 0 0 0 auto;
 
 }
 
 .nav a{
     text-decoration: none;
     color: #fff;
-    margin-left: 20px;
 }
 
 .nav ul{
     display: flex;
     list-style: none;
+    gap: 20px;
+}
+
+.hero{
+    background: #202938;
+    color: #fff;
+}
+
+.hero .container{
+    padding: 50px 0;
+}
+
+.hero-text, .hero-image{
+    width: 450px;
+    font-size: 20px;   
+}
+
+.hero-text h1{
+    font-size: 50px;  
+    margin:0; 
+}
+
+.hero-text p{ 
+    margin: 10px 0; 
+}
+
+.hero-text button{
+    margin: 10px 0;   
+    font-size: 20px;
+    padding: 20px;
+}
+
+.hero-image{
+    border-radius: 250px;
+    margin-left: auto;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    color: #fff;
+    background: #3a82f6;
+    font-weight: 900;
+    
 }
