@@ -1,2 +1,2 @@
 # odin-landing-page
-The Odin Project - Foundations - HTML - Project: Landing Page
+The Odin Project - Foundations - Flexbox - Project: Landing Page
