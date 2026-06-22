@@ -6,7 +6,7 @@ body{
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 1080px;
     margin: auto;
 }
@@ -81,6 +81,7 @@ body{
     border-radius: 250px;
     margin-left: auto;
 }
+
 button{
     padding: 10px;
     border-radius: 10px;
@@ -89,4 +90,33 @@ button{
     background: #3a82f6;
     font-weight: 900;
     
+}
+
+.benefits{
+    text-align: center;
+}
+
+.benefits .container{
+    height: 400px;
+    align-items: flex-start;
+}
+
+.benefits h2{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 30px;
+}
+
+.benefits img{
+    border-radius: 10px;
+}
+
+.benefits h3{
+    margin: 10px auto;
+}
+
+.benefits p{
+    margin: 0 auto;
+    width: 240px;
 }
